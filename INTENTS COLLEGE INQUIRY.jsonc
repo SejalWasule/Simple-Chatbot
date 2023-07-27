@@ -1,0 +1,470 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hello",
+          "Good day",
+          "Namaste",
+          "yo"
+        ],
+        "responses": [
+          "Hello! How can I help you?",
+          "Hi! How may I assist you?",
+          "Hey there! How can I assist with your admissions inquiry?",
+          "Namaste! How can I help you with the admission process?"
+        ]
+      },
+      {
+        "tag": "school_strengths",
+        "patterns": [
+          "What are your school's strengths?",
+          "Tell me about the strengths of your school"
+        ],
+        "responses": [
+          "At Shri Ramdeobaba College of Engineering and Management, our strengths lie in providing quality education, state-of-the-art facilities, experienced faculty, industry exposure, and a vibrant student community."
+        ]
+      },
+      {
+        "tag": "administrators_accessibility",
+        "patterns": [
+          "How accessible are administrators, registrars, financial aid officers, etc.?",
+          "Can I easily reach administrators, registrars, financial aid officers, etc.?"
+        ],
+        "responses": [
+          "Our college administrators, registrars, and financial aid officers are easily accessible and always willing to assist students with their queries and concerns."
+        ]
+      },
+      {
+        "tag": "popular_majors",
+        "patterns": [
+          "What majors are popular?",
+          "Which programs are popular?",
+          "What are the popular majors?",
+          "Tell me about the popular courses"
+        ],
+        "responses": [
+          "Some of the popular majors at Shri Ramdeobaba College of Engineering and Management include Computer Science, Information Technology, Artificial Intelligence and Machine Learning, and Data Science."
+        ]
+      },
+      {
+        "tag": "reputable_departments",
+        "patterns": [
+          "What departments or programs have the best reputations?",
+          "Which departments are well-known?",
+          "Tell me about reputable programs."
+        ],
+        "responses": [
+          "All departments and programs at our college have a great reputation for providing quality education and producing skilled professionals. We take pride in the accomplishments and achievements of our students and faculty across all disciplines."
+        ]
+      },
+      {
+        "tag": "professor_office_hours",
+        "patterns": [
+          "Do your professors hold office hours?",
+          "Are professors available for student meetings outside of class?"
+        ],
+        "responses": [
+          "Absolutely! Our professors hold regular office hours to provide additional support and guidance to students. They are more than willing to meet with students outside of class to discuss any academic or research-related matters."
+        ]
+      },
+      {
+        "tag": "lecture_vs_discussion_classes",
+        "patterns": [
+          "Are most of your classes lecture-based or discussion-based?",
+          "What is the teaching style in classes?"
+        ],
+        "responses": [
+          "The teaching style at Shri Ramdeobaba College of Engineering and Management varies depending on the course and faculty. Some classes follow a lecture-based approach, while others may emphasize interactive discussions and group activities."
+        ]
+      },
+      {
+        "tag": "reading_and_writing_requirements",
+        "patterns": [
+          "How much reading and writing is required in your courses?",
+          "Are there extensive reading and writing assignments?"
+        ],
+        "responses": [
+          "The reading and writing requirements in our courses may vary. Some courses may have more reading assignments, while others may involve practical projects and presentations. However, our academic programs aim to strike a balance between theoretical knowledge and practical application."
+        ]
+      },
+      {
+        "tag": "collaborative_work_requirement",
+        "patterns": [
+          "How often are collaborative work or group presentations required?",
+          "Do students work together on projects?"
+        ],
+        "responses": [
+          "Collaborative work and group presentations are essential components of our courses. We encourage students to work together, fostering teamwork and communication skills that are vital in real-world scenarios."
+        ]
+      },
+      {
+        "tag": "academic_advising_satisfaction",
+        "patterns": [
+          "How satisfied are you with academic advising?",
+          "Are the academic advisors helpful?"
+        ],
+        "responses": [
+          "Our academic advising services are highly regarded, and students find them very helpful. Our dedicated advisors provide guidance and support to help students make informed decisions about their academic journey."
+        ]
+      },
+      {
+        "tag": "on_campus_tutoring_programs",
+        "patterns": [
+          "Do students use any on-campus tutoring programs or writing centers?",
+          "Are tutoring services available on campus?"
+        ],
+        "responses": [
+          "Yes, we have on-campus tutoring programs and writing centers where students can seek additional help and support in their studies."
+        ]
+      },
+      {
+        "tag": "class_sizes",
+        "patterns": [
+          "How big are your classes?",
+          "What is the average class size?"
+        ],
+        "responses": [
+          "Our classes are designed to be interactive and conducive to learning. While some classes may be larger, we ensure that students receive personalized attention and support from the faculty."
+        ]
+      },
+      {
+        "tag": "professors_for_research",
+        "patterns": [
+          "Are professors available for research with students?",
+          "Can students participate in research with faculty?"
+        ],
+        "responses": [
+          "Yes, both part-time and full-time research internships are available for students starting from the second year up to the final year. Students can actively engage in research projects with faculty members and gain valuable research experience."
+        ]
+      },
+      {
+        "tag": "first_year_experience",
+        "patterns": [
+          "What's it like to be a first-year student here?",
+          "Can you describe the first year experience?"
+        ],
+        "responses": [
+          "The first year at Shri Ramdeobaba College of Engineering and Management is a transformative and enriching experience for students. It is a time of making new friends, adapting to college life, exploring academic interests, and being a part of various clubs and activities."
+        ]
+      },
+      {
+        "tag": "activities_outside_class",
+        "patterns": [
+          "What do you do when you're not in class?",
+          "What are the activities available on campus?"
+        ],
+        "responses": [
+          "Outside of class, students can enjoy various activities such as having a meal at the canteen, relaxing in the open-air theatre, studying in the library, or engaging in sports and games on the playground."
+        ]
+      },
+      {
+        "tag": "food_quality_on_campus",
+        "patterns": [
+          "How’s the food on campus?",
+          "Tell me about the quality of food in the canteen."
+        ],
+        "responses": [
+          "The food in the canteen is known for its good quality and affordability. Students can enjoy a variety of dishes that cater to different tastes and preferences."
+        ]
+      },
+      {
+        "tag": "on_campus_residence",
+        "patterns": [
+          "Do most students live on-campus?",
+          "Are on-campus hostels available?"
+        ],
+        "responses": [
+          "Yes, we provide facilities for both girls and boys hostels, and many students choose to live on-campus for convenience and the vibrant college community."
+        ]
+      },
+      {
+        "tag": "dorm_quality",
+        "patterns": [
+          "How are the dorms?",
+          "What's the quality of the dormitories?"
+        ],
+        "responses": [
+          "The dorms at Shri Ramdeobaba College of Engineering and Management are of good quality, providing comfortable living spaces for students during their stay on-campus."
+        ]
+      },
+      {
+        "tag": "popular_student_organizations",
+        "patterns": [
+          "Which clubs and student organizations are popular?",
+          "Tell me about the popular student clubs."
+        ],
+        "responses": [
+          "Our college has a diverse range of student organizations and clubs. Some of the popular ones include the TECHNICAL CLUB, DRAMA CLUB, DANCE CLUB, MUSIC CLUB, PHOTOGRAPHY CLUB, READERS' REVERIE LITERARY CLUB, ROBOTICS CLUB, SAE-INDIA CLUB, EMBEDDED CLUB, ROTARACT CLUB, CODE BREAKERS CLUB, and SRC (Student Representative Council), among others."
+        ]
+      },
+      {
+        "tag": "student_club_membership",
+        "patterns": [
+          "Do lots of students belong to clubs?",
+          "Are many students involved in student clubs?"
+        ],
+        "responses": [
+          "Yes, many students actively participate in various student clubs and organizations. Students can audition and join clubs of their interest, allowing them to explore their passions and talents outside of academics."
+        ]
+      },
+      {
+        "tag": "favorite_campus_spots",
+        "patterns": [
+          "What's the best place on campus?",
+          "Where do students love spending time on campus?"
+        ],
+        "responses": [
+          "The best place on campus depends on personal preferences. For foodies, the canteen is a favorite spot. Social individuals enjoy the open-air theatre for gatherings and events, while sports enthusiasts appreciate the playground. Studious students often prefer the library's reading room for peaceful study sessions."
+        ]
+      },
+      {
+        "tag": "study_spots_on_campus",
+        "patterns": [
+          "Where do people study on campus?",
+          "What are the study spots available on campus?"
+        ],
+        "responses": [
+          "Students can find quiet study spots on campus in empty classrooms within their department or utilize the library's reading room for focused studying."
+        ]
+      },
+      {
+        "tag": "campus_facilities",
+        "patterns": [
+          "What are the facilities like (science labs, libraries, theatres, gyms, etc.)?",
+          "Tell me about the available campus facilities."
+        ],
+        "responses": [
+          "Our college boasts excellent facilities, including well-equipped science labs, modern libraries, state-of-the-art theatres, and fitness gyms to cater to students' academic and extracurricular needs."
+        ]
+      },
+      {
+        "tag": "computer_labs_availability",
+        "patterns": [
+          "Are there enough computer labs?",
+          "Do you have sufficient computer facilities?"
+        ],
+        "responses": [
+          "Yes, we have computer labs in every department to cater to the technological needs of students and support their academic activities."
+        ]
+      },
+      {
+        "tag": "wifi_quality_on_campus",
+        "patterns": [
+          "How is the WiFi on campus?",
+          "Is the campus WiFi reliable?"
+        ],
+        "responses": [
+          "The WiFi on campus is reliable and easily accessible, enabling students to stay connected and access online resources without any difficulty."
+        ]
+      },
+      {
+        "tag": "sports_popularity_on_campus",
+        "patterns": [
+          "Are sports popular?",
+          "Do students actively participate in sports?"
+        ],
+        "responses": [
+          "Yes, sports are popular on campus. Students actively participate in various sports and games, such as Badminton, Basketball, Chess, Cricket, Football, Lawn-tennis, Swimming, Table-tennis, Volleyball, Tug of war, Best Physique, Power-lifting, and Adventure Sports."
+        ]
+      },
+      {
+        "tag": "school_spirit",
+        "patterns": [
+          "Is there a lot of school spirit?",
+          "Do students have strong school pride?"
+        ],
+        "responses": [
+          "Yes, there is a strong sense of school spirit at our college, especially during branch cups and various cultural and sports events. Students take pride in representing their departments and participate actively in college activities."
+        ]
+      },
+      {
+        "tag": "fellow_students_description",
+        "patterns": [
+          "How would you describe your fellow students?",
+          "Can you tell me about the student community?"
+        ],
+        "responses": [
+          "Our fellow students are supportive, friendly, and inclusive. The college environment encourages collaboration and mutual respect among students from diverse backgrounds and interests."
+        ]
+      },
+      {
+        "tag": "friendly_student_community",
+        "patterns": [
+          "Are the students here friendly?",
+          "Do students get along well with each other?"
+        ],
+        "responses": [
+          "Yes, the students at Shri Ramdeobaba College of Engineering and Management are very friendly and welcoming. The college promotes a positive and inclusive atmosphere, fostering strong bonds among students."
+        ]
+      },
+      {
+        "tag": "unique_student_body",
+        "patterns": [
+          "What makes the student body unique?",
+          "Tell me about the uniqueness of the student community."
+        ],
+        "responses": [
+          "The student body at our college is unique due to the active involvement of students in various academic and cultural activities. The Student Representative Council (SRC) plays a crucial role in supporting students' needs and empowering them in academic and extracurricular endeavors."
+        ]
+      },
+      {
+        "tag": "internship_opportunities",
+        "patterns": [
+          "Are internships available?",
+          "Do students get opportunities for internships?"
+        ],
+        "responses": [
+          "Yes, we provide internship opportunities through various programs, such as the RGSTC-TIFAC-MSME Internship Program. Students can gain valuable industry exposure and contribute to the growth of micro, small, and medium enterprises (MSMEs)."
+        ]
+      },
+      {
+        "tag": "career_services_support",
+        "patterns": [
+          "Is Career Services helpful?",
+          "Do you offer support for career development?"
+        ],
+        "responses": [
+          "Yes, our Career Services department is dedicated to supporting students in their career development journey. Visit the Training and Placement Cell website for more information about career opportunities and placement assistance."
+        ]
+      },
+      {
+        "tag": "mentorship_program",
+        "patterns": [
+          "Do you have a mentor?",
+          "Is there a mentorship program?"
+        ],
+        "responses": [
+          "Yes, we have a mentor-mentee scheme to provide guidance and support to students. Mentorship is an integral part of our college culture, fostering personal and academic growth among students."
+        ]
+      },
+      {
+        "tag": "college_programs_offered",
+        "patterns": [
+          "What programs does the college offer?",
+          "Tell me about the available programs."
+        ],
+        "responses": [
+          "We offer a wide range of programs, including Undergraduate (UG) courses, Post Graduate (PG) programs, and PhD programs. Students can choose from various disciplines based on their interests and career goals."
+        ]
+      },
+      {
+        "tag": "leadership_skills_opportunities",
+        "patterns": [
+          "Are there opportunities to build leadership skills on campus?",
+          "Can students develop leadership skills here?"
+        ],
+        "responses": [
+          "Yes, our college encourages students to develop leadership skills through various student organizations, club activities, and participation in college events and committees."
+        ]
+      },
+      {
+        "tag": "service_learning_opportunities",
+        "patterns": [
+          "What options exist for service learning in the community?",
+          "Tell me about service learning opportunities."
+        ],
+        "responses": [
+          "We offer service learning programs that allow students to engage with the community and make a positive impact through various social, cultural, and environmental initiatives."
+        ]
+      },
+      {
+        "tag": "campus_recruitment",
+        "patterns": [
+          "Do employers recruit students on campus?",
+          "Are there on-campus job placements?"
+        ],
+        "responses": [
+          "Yes, in the third and final year, numerous companies visit our campus for placements, offering job opportunities to our students across various disciplines."
+        ]
+      },
+      {
+        "tag": "summer_jobs_opportunities",
+        "patterns": [
+          "How easy is it to find summer jobs and other kinds of work through your school?",
+          "Are there opportunities for summer jobs?"
+        ],
+        "responses": [
+          "Yes, we provide part-time internships for six months, which also serve as summer job opportunities. Some internships also offer work-from-home options."
+        ]
+      },
+      {
+        "tag": "notable_alumni",
+        "patterns": [
+          "Who are some of the notable graduates from your college?",
+          "Tell me about successful alumni."
+        ],
+        "responses": [
+          "Shri Ramdeobaba College of Engineering and Management has produced several successful alumni who have excelled in their respective fields. Some notable alumni include Arvind Nahata, Neeraj Tiwari, Anshuman Tiwari, Hariharan Laxminarayanan, and many others."
+        ]
+      },
+      {
+        "tag": "alumni_association_presence",
+        "patterns": [
+          "How visible is your school's alumni association on campus?",
+          "Tell me about the alumni association."
+        ],
+        "responses": [
+          "Our school's alumni association is actively involved in campus activities and engages with current students and faculty. For more information about the alumni association, you can visit their website at https://www.rknecalumni.org/."
+        ]
+      },
+      {
+        "tag": "hands_on_experiences",
+        "patterns": [
+          "What kinds of hands-on or practical experiences have you had in and outside of the classroom?",
+          "Tell me about practical experiences in and outside of the classroom."
+        ],
+        "responses": [
+          "At Shri Ramdeobaba College of Engineering and Management, we believe in providing hands-on and practical experiences to enhance learning. Students participate in workshops, projects, internships, and industry visits to gain real-world exposure and develop practical skills."
+        ]
+      },
+      {
+        "tag": "student_societies_by_department",
+        "patterns": [
+          "How many departments are there, and are there any student societies specific to departments?",
+          "Tell me about the student societies in each department."
+        ],
+        "responses": [
+          "We have multiple departments at our college, and each department has its specific student society. Some of them are:
+  
+          1. Electronics - ELECTROLITZ
+          2. Electronics & Communication - COMMUNIQUE
+          3. Computer Science & Engineering - COMPUSYS
+          4. Information Technology - ALACRITY
+          5. Industrial Engineering - IES
+          6. Civil Engineering - CESA
+          7. Mechanical Engineering - MECHASSO
+          8. Electrical Engineering - EESA
+          9. Electronics Design & Technology - GENESIS
+          10. Integrated MBA - IMREC
+          11. Master in Business Administration - DMT Forum
+          12. Master in Computer Application - CHRYSALIS"
+        ]
+      },
+      {
+        "tag": "entrepreneurship_opportunities",
+        "patterns": [
+          "Is there any opportunity for young budding entrepreneurs?",
+          "Tell me about entrepreneurship opportunities."
+        ],
+        "responses": [
+          "Yes, we have the OASIS-The Entrepreneurship Development Cell (EDC) at Shri Ramdeobaba College of Engineering & Management. The EDC encourages graduating engineers to consider self-employment as a career option. It promotes entrepreneurship through guest lectures, workshops, seminars, competitions, and industrial visits, fostering an innovation ecosystem that benefits both students and micro, small, and medium enterprises (MSMEs)."
+        ]
+      },
+      {
+        "tag": "other_questions",
+        "patterns": [
+          "Any other questions?",
+          "Do you have any other queries?"
+        ],
+        "responses": [
+          "If you have any more questions or need further information, you can visit our college website at http://www.rknec.edu/ for general details, admissions website at http://www.rknec.edu/Admissions/admissionlanding.aspx for admission-related inquiries, placements info at http://www.rknec.edu/Placement/Placements.aspx, and academic information at http://www.rknec.edu/Academics/Academics.aspx."
+        ]
+      }
+    ]
+  }
+  
