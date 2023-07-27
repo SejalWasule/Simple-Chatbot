@@ -1,13 +1,3 @@
-# Simple-Chatbot
-Here I created a super fun Project using AIML deep learning 
-It is a chatbot that classifies the text messages given in intents 
-It provides you perfect answers to your queries(If they are in intents)
-It also has simple text user interface and a GUI created using Gradio library
-![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/a88a9227-e038-41e1-a521-9f850264cb8d)
-GUI of chatbot:
-![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/96bbee63-ff49-4655-9176-5f258e3c5c0a)
-![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/8edc710f-f05a-414e-b349-2f26667317f4)
-
 # College Inquiry Chatbot
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -45,8 +35,16 @@ Contributions to this project are welcome. Feel free to open issues for bug repo
 
 The College Inquiry Chatbot was created as a project for educational purposes and is not an official chatbot of Shri Ramdeobaba College of Engineering and Management, Nagpur.
 
-**Note:** The chatbot's responses are based on data given on college website. The chatbot should not be used for making real admissions decisions.
+**Note:** The chatbot's responses are based on data given on college website ( in 2022) and general experience of student body in college. 
 
 College Inquiry Chatbot
 ![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/39b996c0-f70f-4218-93c6-7393cc79d654)
 ![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/5895d58d-591e-45bf-be85-c4e0c873ef76)
+
+# Simple-Chatbot
+## Intent and Response Customization
+we can also change intents and make chatbot according to our purpose and add faqs to intents.....Here i changed intents to Make it general purpose.
+![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/a88a9227-e038-41e1-a521-9f850264cb8d)
+GUI of chatbot:
+![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/96bbee63-ff49-4655-9176-5f258e3c5c0a)
+![image](https://github.com/SejalWasule/Simple-Chatbot/assets/102143995/8edc710f-f05a-414e-b349-2f26667317f4)
