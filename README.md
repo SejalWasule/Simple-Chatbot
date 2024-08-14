@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The College Inquiry Chatbot is an interactive conversational AI application that classifies text messages based on predefined intents and provides perfect answers to users' queries (if they are in the intents). It is designed to assist prospective students with their admissions-related questions for Shri Ramdeobaba College of Engineering and Management, Nagpur.
+The College Inquiry Chatbot is an interactive conversational AI application that classifies text messages based on predefined intents and provides perfect answers to users' queries (if they are in the intents). It is designed to assist prospective students with their admissions-related questions for College .
 
 ## Features
 
